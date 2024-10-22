@@ -1,1 +1,94 @@
-/* This file is intentionally left blank */
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+header {
+    background-color: #4B0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #4B0082;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #FF4500;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #4B0082;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container, .service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-container img, .service img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service {
+    border-bottom: 2px solid #4B0082;
+    padding-bottom: 20px;
+}
+
+.service h3 {
+    color: #FF4500;
+}
+
+footer {
+    background-color: #4B0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
